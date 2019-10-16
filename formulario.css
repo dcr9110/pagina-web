@@ -1,0 +1,14 @@
+form{
+    color: blue;
+    background-color: rgb(52, 165, 42);
+}
+
+#formulario{
+    width: 600px;
+    text-align: center;
+
+    display: block;
+    margin: auto;
+    border: 5px solid red;
+    padding: 5px; 
+}

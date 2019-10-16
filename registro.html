@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="formulario.css">
+    
+</head>
+<body>
+     <p>
+         <div id="formulario">
+            <form action="registrar.php" method="POST">
+            LOGIN: 
+            <input type="text" name="nombre" value="joker" required><br>
+            CONTRASEÑA:
+            <input type="password" name="password" required><br>
+            EMAIL:
+            <input type="email" name="email" value="joder@h.com" required><br>
+            FECHA DE NACIMIENTO
+            <input type="date" name="fecha" min="1999-12-31"><br>
+            <input type="submit" name="sumit" value= "registrar">
+            <input type="reset" value= "borrar">
+            
+            <br>
+            </form>
+         </div> 
+         
+     </p>   
+</body>
+</html>
